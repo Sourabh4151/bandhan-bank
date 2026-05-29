@@ -4,7 +4,7 @@ import React, { useState, useRef, useEffect } from "react";
 // Use desktop.jpg or aviva_ds_hero.jpg depending on which file you have in src/assets/.
 import heroImage from "../assets/desktop.jpg";
 import tickSvg from "../assets/tick.svg";
-import bandhanBankLogo from "../assets/bandhan_bank_logo.svg";
+import bandhanBankLogo from "../assets/bandhan_logo.svg";
 
 export default function Hero() {
   const [form, setForm] = useState({ name: "", email: "", state: "", mobile: "" });
@@ -235,7 +235,7 @@ export default function Hero() {
                 <img
                   src={bandhanBankLogo}
                   alt="Bandhan Bank"
-                  className="h-[71px] w-[184px] object-cover"
+                  className="h-[71px] w-auto object-contain"
                 />
               </div>
               <div className="hero-logo-badge mb-3 md:mb-4">
