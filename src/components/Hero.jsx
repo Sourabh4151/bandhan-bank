@@ -235,7 +235,7 @@ export default function Hero() {
                 <img
                   src={bandhanBankLogo}
                   alt="Bandhan Bank"
-                  className="h-[54px] w-[196px] lg:h-[61px] lg:w-[220px] object-contain"
+                  className="h-[67px] w-[196px] lg:h-[76px] lg:w-[220px] object-contain"
                 />
               </div>
               <div className="hero-logo-badge mb-3 md:mb-4">

@@ -19,7 +19,7 @@ export default function About() {
         <img
           src={bandhanBankLogo}
           alt="Bandhan Bank"
-          className="mt-4 h-[54px] w-[196px] lg:h-[61px] lg:w-[220px] object-contain"
+          className="mt-4 h-[67px] w-[196px] lg:h-[76px] lg:w-[220px] object-contain"
         />
       </div>
     </section>
