@@ -3,9 +3,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/bandhan-bank/',
+
   server: {
     port: 5000,
     strictPort: true,
   },
 });
-

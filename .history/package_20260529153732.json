@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "vite --port 5000",
     "build": "vite build",
-    "preview": "vite preview --port 5000",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview --port 5000"
   },
   "dependencies": {
     "gsap": "^3.14.2",
